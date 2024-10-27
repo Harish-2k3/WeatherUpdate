@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <div className='md:max-w-[85rem] md:mx-auto md:py-36 bg-black'>
-      <div className='grid grid-cols-1 bg-[#022d50] md:w-[30rem] pb-10 md:h-auto md:mx-auto rounded-md'>
+      <div className='grid grid-cols-1 bg-[#022d50] md:w-[30rem] pb-28 md:h-auto md:mx-auto rounded-md'>
         <div className='text-center'>
           <h1 className='text-2xl font-extrabold bg-gradient-to-r from-red-900 to-blue-500 bg-clip-text text-transparent py-10'>Contact us</h1>
         </div>

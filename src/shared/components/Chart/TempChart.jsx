@@ -12,7 +12,7 @@ export default function TempChart(props) {
           <XAxis 
             dataKey="datetime" 
             stroke="#fff" // Change XAxis text color to white
-            tick={{ fill: '#fff' }} // Change XAxis tick color to white
+            tick={{ fill: '#fff',angle:-35  }} // Change XAxis tick color to white
           />
           <YAxis 
             stroke="#fff" // Change YAxis text color to white
@@ -37,7 +37,7 @@ export function HumidityChart({ data }) {
           <XAxis 
             dataKey="datetime" 
             stroke="#fff" // Change XAxis text color to white
-            tick={{ fill: '#fff' }} // Change XAxis tick color to white
+            tick={{ fill: '#fff',angle:-35  }} // Change XAxis tick color to white
           />
           <YAxis 
             stroke="#fff" // Change YAxis text color to white
@@ -61,7 +61,7 @@ export function WindSpeedChart({ data }) {
           <XAxis 
             dataKey="datetime" 
             stroke="#fff" // Change XAxis text color to white
-            tick={{ fill: '#fff' }} // Change XAxis tick color to white
+            tick={{ fill: '#fff',angle:-35 }} // Change XAxis tick color to white
           />
           <YAxis 
             stroke="#fff" // Change YAxis text color to white
