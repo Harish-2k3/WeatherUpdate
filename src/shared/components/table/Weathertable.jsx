@@ -11,7 +11,7 @@ export default function Weathertable(props) {
     };
 
     return (
-        <div className='md:max-w-[85rem] mx-auto md:px-3 bg-[#0a0a0a]'>
+        <div className='md:max-w-[85rem] mx-auto md:px-3 py-5 bg-[#0a0a0a]'>
             <div className='text-center'>
                 <h1 className='text-2xl font-medium pt-4 pb-5 text-white '>Weather Data</h1>
             </div>
