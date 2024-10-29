@@ -9,7 +9,7 @@ export default function Footer() {
         <img src="public/cloudy1.png" className='h-10 w-10 ' alt="" />
         <img src="public/cloudy2.png" className='h-10 w-10 ' alt="" />
         <img src="public/snow.png" className='h-10 w-10 ' alt="" /> */}
-        <img src="/public/Crypto.png" className='h-20 w-20' alt="loading..." />
+        <img src="/Crypto.png" className='h-20 w-20' alt="loading..." />
       </div>
       <p className='text-center mt-3 text-white'>Copyright © 2024</p>
     </div>
