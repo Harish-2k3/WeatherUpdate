@@ -14,7 +14,7 @@ export default function Header() {
         <div className="bg-[#022d50] md:w-[85rem] md:mx-auto py-5 sticky top-0 z-10">
             <div className="flex justify-between mx-2 md:mx-7 items-center">
                 <div className="flex flex-row items-center">
-                    <img src="public/crypto logo.png" className="h-10 md:h-20" alt="Crypto Logo" />
+                    <img src="/public/crypto logo.png" className="h-10 md:h-20" alt="Crypto Logo" />
                     <h1 className="text-2xl md:text-2xl font-extrabold bg-gradient-to-r from-green-600 via-green-400 to-lime-500 bg-clip-text text-transparent md:-ml-7">
                         Crypto
                     </h1>
